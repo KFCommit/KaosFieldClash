@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,7 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\De.cs" />
+    <Compile Include="Class\answer.cs" />
+    <Compile Include="Class\question.cs" />
     <Compile Include="Class\QuestionSquare.cs" />
+    <Compile Include="Json.cs" />
     <Compile Include="Class\Square.cs" />
     <Compile Include="Class\LadderSquare.cs" />
     <Compile Include="Class\SlideSquare.cs" />
@@ -76,6 +82,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Data\questions.json" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
