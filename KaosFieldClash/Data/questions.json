@@ -1,0 +1,844 @@
+{
+    "questions": [
+        {
+            "question": "Quel langage est utilisé pour le développement d'applications Android ?",
+            "answers": {
+                "correct": "Kotlin",
+                "wrong": [
+                    "Swift",
+                    "Python"
+                ]
+            }
+        },
+        {
+            "question": "Quel protocole est utilisé pour envoyer des emails ?",
+            "answers": {
+                "correct": "SMTP",
+                "wrong": [
+                    "HTTP",
+                    "FTP"
+                ]
+            }
+        },
+        {
+            "question": "Que signifie HTML ?",
+            "answers": {
+                "correct": "HyperText Markup Language",
+                "wrong": [
+                    "HighText Machine Learning",
+                    "Hyper Transfer Markup Language"
+                ]
+            }
+        },
+        {
+            "question": "Quelle entreprise a développé le langage de programmation Python ?",
+            "answers": {
+                "correct": "Python Software Foundation",
+                "wrong": [
+                    "Microsoft",
+                    "Apple"
+                ]
+            }
+        },
+        {
+            "question": "Quelle est la taille d'un octet ?",
+            "answers": {
+                "correct": "8 bits",
+                "wrong": [
+                    "16 bits",
+                    "32 bits"
+                ]
+            }
+        },
+        {
+            "question": "Quel système d'exploitation est open-source ?",
+            "answers": {
+                "correct": "Linux",
+                "wrong": [
+                    "Windows",
+                    "MacOS"
+                ]
+            }
+        },
+        {
+            "question": "Quelle est la complexité temporelle du tri par fusion ?",
+            "answers": {
+                "correct": "O(n log n)",
+                "wrong": [
+                    "O(n^2)",
+                    "O(log n)"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le principal objectif d'un pare-feu en informatique ?",
+            "answers": {
+                "correct": "Filtrer le trafic réseau",
+                "wrong": [
+                    "Accélérer le réseau",
+                    "Sauvegarder des fichiers"
+                ]
+            }
+        },
+        {
+            "question": "Quel langage est souvent utilisé pour le développement web côté client ?",
+            "answers": {
+                "correct": "JavaScript",
+                "wrong": [
+                    "Python",
+                    "Java"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le format de fichier principal utilisé pour les images sans perte de qualité ?",
+            "answers": {
+                "correct": "PNG",
+                "wrong": [
+                    "JPEG",
+                    "GIF"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le principal objectif d'une base de données relationnelle ?",
+            "answers": {
+                "correct": "Stocker et organiser des données structurées",
+                "wrong": [
+                    "Optimiser le réseau",
+                    "Créer des graphiques"
+                ]
+            }
+        },
+        {
+            "question": "Quel langage est principalement utilisé pour l'intelligence artificielle ?",
+            "answers": {
+                "correct": "Python",
+                "wrong": [
+                    "C++",
+                    "HTML"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle du DNS en informatique ?",
+            "answers": {
+                "correct": "Traduire les noms de domaine en adresses IP",
+                "wrong": [
+                    "Gérer les connexions Internet",
+                    "Stocker des fichiers sur le cloud"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le langage de requêtage utilisé pour interagir avec les bases de données relationnelles ?",
+            "answers": {
+                "correct": "SQL",
+                "wrong": [
+                    "NoSQL",
+                    "Python"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le nom du principal navigateur open-source développé par Mozilla ?",
+            "answers": {
+                "correct": "Firefox",
+                "wrong": [
+                    "Chrome",
+                    "Edge"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'objectif du chiffrement en informatique ?",
+            "answers": {
+                "correct": "Protéger les données contre les accès non autorisés",
+                "wrong": [
+                    "Accélérer la connexion Internet",
+                    "Compresser les fichiers"
+                ]
+            }
+        },
+        {
+            "question": "Quel langage est principalement utilisé pour le développement de scripts système sous Linux ?",
+            "answers": {
+                "correct": "Bash",
+                "wrong": [
+                    "PowerShell",
+                    "Ruby"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle du protocole HTTPS ?",
+            "answers": {
+                "correct": "Sécuriser les échanges entre un navigateur et un site Web",
+                "wrong": [
+                    "Accélérer la navigation Web",
+                    "Optimiser les requêtes DNS"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'élément principal d'un disque dur mécanique ?",
+            "answers": {
+                "correct": "Le plateau",
+                "wrong": [
+                    "Le transistor",
+                    "La puce électronique"
+                ]
+            }
+        },
+        {
+            "question": "Quel langage est utilisé pour créer des pages web dynamiques côté serveur ?",
+            "answers": {
+                "correct": "PHP",
+                "wrong": [
+                    "HTML",
+                    "CSS"
+                ]
+            }
+        },
+        {
+            "question": "Quel protocole est utilisé pour sécuriser les connexions Wi-Fi ?",
+            "answers": {
+                "correct": "WPA2",
+                "wrong": [
+                    "HTTP",
+                    "SSL"
+                ]
+            }
+        },
+        {
+            "question": "Quel type de réseau est utilisé dans un bâtiment ou une maison ?",
+            "answers": {
+                "correct": "LAN",
+                "wrong": [
+                    "WAN",
+                    "MAN"
+                ]
+            }
+        },
+        {
+            "question": "Quel type de mémoire est volatile ?",
+            "answers": {
+                "correct": "RAM",
+                "wrong": [
+                    "ROM",
+                    "SSD"
+                ]
+            }
+        },
+        {
+            "question": "Quel outil permet de gérer des versions de code source ?",
+            "answers": {
+                "correct": "Git",
+                "wrong": [
+                    "Docker",
+                    "Jenkins"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'objectif principal du langage C ?",
+            "answers": {
+                "correct": "Développement de logiciels systèmes",
+                "wrong": [
+                    "Développement web",
+                    "Développement mobile"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'objectif du langage Python ?",
+            "answers": {
+                "correct": "Programmation générale et scientifique",
+                "wrong": [
+                    "Développement mobile",
+                    "Développement bas niveau"
+                ]
+            }
+        },
+        {
+            "question": "Quelle entreprise a développé le système d'exploitation Android ?",
+            "answers": {
+                "correct": "Google",
+                "wrong": [
+                    "Apple",
+                    "Microsoft"
+                ]
+            }
+        },
+        {
+            "question": "Quel langage est utilisé pour le développement des applications iOS ?",
+            "answers": {
+                "correct": "Swift",
+                "wrong": [
+                    "Kotlin",
+                    "Java"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le format de fichier couramment utilisé pour l'audio sans perte ?",
+            "answers": {
+                "correct": "FLAC",
+                "wrong": [
+                    "MP3",
+                    "WAV"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'objectif principal du Cloud Computing ?",
+            "answers": {
+                "correct": "Fournir des ressources informatiques à distance",
+                "wrong": [
+                    "Développer des applications mobiles",
+                    "Construire des serveurs locaux"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle de l'IP dans un réseau informatique ?",
+            "answers": {
+                "correct": "Identifier de manière unique un appareil sur un réseau",
+                "wrong": [
+                    "Accélérer le transfert de données",
+                    "Gérer les connexions Wi-Fi"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle du processeur dans un ordinateur ?",
+            "answers": {
+                "correct": "Exécuter les instructions des programmes",
+                "wrong": [
+                    "Stocker les données",
+                    "Gérer les périphériques externes"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle principal d'un serveur DNS ?",
+            "answers": {
+                "correct": "Résoudre les noms de domaine en adresses IP",
+                "wrong": [
+                    "Réplication de bases de données",
+                    "Stockage de fichiers"
+                ]
+            }
+        },
+        {
+            "question": "Quel protocole est utilisé pour transférer des fichiers sur Internet ?",
+            "answers": {
+                "correct": "FTP",
+                "wrong": [
+                    "SMTP",
+                    "HTTP"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle de JavaScript dans un site web ?",
+            "answers": {
+                "correct": "Interaction dynamique et comportement du site",
+                "wrong": [
+                    "Structure de contenu",
+                    "Style de la page"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le nom de la première version de Windows ?",
+            "answers": {
+                "correct": "Windows 1.0",
+                "wrong": [
+                    "Windows 95",
+                    "Windows XP"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'objectif de l'Open Source ?",
+            "answers": {
+                "correct": "Rendre le code source accessible et modifiable",
+                "wrong": [
+                    "Vendre des logiciels",
+                    "Protéger des brevets"
+                ]
+            }
+        },
+        {
+            "question": "Quel langage est utilisé pour créer des applications Web dynamiques ?",
+            "answers": {
+                "correct": "JavaScript",
+                "wrong": [
+                    "PHP",
+                    "HTML"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le nom de l'algorithme de compression utilisé pour les fichiers ZIP ?",
+            "answers": {
+                "correct": "Deflate",
+                "wrong": [
+                    "LZW",
+                    "Bzip2"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le but du protocole SSL/TLS ?",
+            "answers": {
+                "correct": "Sécuriser les échanges sur le web",
+                "wrong": [
+                    "Accélérer le réseau",
+                    "Filtrer le trafic"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle de l'API dans une application ?",
+            "answers": {
+                "correct": "Permettre la communication entre différents logiciels",
+                "wrong": [
+                    "Stocker les données",
+                    "Afficher des images"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le nom du célèbre réseau social fondé par Mark Zuckerberg ?",
+            "answers": {
+                "correct": "Facebook",
+                "wrong": [
+                    "Twitter",
+                    "Instagram"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'objectif d'un algorithme de tri ?",
+            "answers": {
+                "correct": "Organiser des éléments dans un ordre spécifique",
+                "wrong": [
+                    "Générer des nombres aléatoires",
+                    "Analyser des données"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle principal d'un processeur graphique ?",
+            "answers": {
+                "correct": "Gérer le rendu des images et vidéos",
+                "wrong": [
+                    "Exécuter des programmes",
+                    "Stocker des données"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'outil de développement utilisé pour le développement mobile natif sur Android ?",
+            "answers": {
+                "correct": "Android Studio",
+                "wrong": [
+                    "Xcode",
+                    "Visual Studio"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle principal d'une carte mère ?",
+            "answers": {
+                "correct": "Connecter tous les composants de l'ordinateur",
+                "wrong": [
+                    "Gérer la mémoire",
+                    "Stocker des fichiers"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le but de la virtualisation en informatique ?",
+            "answers": {
+                "correct": "Créer plusieurs environnements virtuels sur un même serveur",
+                "wrong": [
+                    "Accélérer le réseau",
+                    "Améliorer les graphismes"
+                ]
+            }
+        },
+        {
+            "question": "Quel protocole est utilisé pour la transmission de vidéos en streaming ?",
+            "answers": {
+                "correct": "RTSP",
+                "wrong": [
+                    "HTTP",
+                    "FTP"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle de l'IDE dans le développement de logiciels ?",
+            "answers": {
+                "correct": "Fournir un environnement intégré pour la programmation",
+                "wrong": [
+                    "Compiler des fichiers",
+                    "Stocker du code source"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle de la mémoire cache dans un ordinateur ?",
+            "answers": {
+                "correct": "Stocker temporairement les données fréquemment utilisées",
+                "wrong": [
+                    "Stocker le système d'exploitation",
+                    "Gérer les périphériques externes"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le langage de programmation principalement utilisé pour les applications Android ?",
+            "answers": {
+                "correct": "Kotlin",
+                "wrong": [
+                    "Java",
+                    "C#"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle principal d'un réseau VPN ?",
+            "answers": {
+                "correct": "Sécuriser les connexions Internet",
+                "wrong": [
+                    "Accélérer la connexion Internet",
+                    "Stocker des données"
+                ]
+            }
+        },
+        {
+            "question": "Quel protocole est utilisé pour l'envoi de pages Web ?",
+            "answers": {
+                "correct": "HTTP",
+                "wrong": [
+                    "FTP",
+                    "SMTP"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le but de l'algorithme de hachage ?",
+            "answers": {
+                "correct": "Obtenir une empreinte unique d'un ensemble de données",
+                "wrong": [
+                    "Crypter des informations",
+                    "Décompresser des fichiers"
+                ]
+            }
+        },
+        {
+            "question": "Quelle entreprise a développé le langage de programmation Java ?",
+            "answers": {
+                "correct": "Sun Microsystems",
+                "wrong": [
+                    "Oracle",
+                    "IBM"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'outil de développement pour créer des applications iOS ?",
+            "answers": {
+                "correct": "Xcode",
+                "wrong": [
+                    "Android Studio",
+                    "Eclipse"
+                ]
+            }
+        },
+        {
+            "question": "Quel type de mémoire est non volatile ?",
+            "answers": {
+                "correct": "ROM",
+                "wrong": [
+                    "RAM",
+                    "Cache"
+                ]
+            }
+        },
+        {
+            "question": "Quel langage est principalement utilisé pour le développement des applications Web côté serveur ?",
+            "answers": {
+                "correct": "PHP",
+                "wrong": [
+                    "JavaScript",
+                    "Python"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle d'un load balancer ?",
+            "answers": {
+                "correct": "Répartir le trafic entre plusieurs serveurs",
+                "wrong": [
+                    "Stocker des données",
+                    "Sécuriser le réseau"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le protocole de communication utilisé pour les appels vidéo sur Internet ?",
+            "answers": {
+                "correct": "WebRTC",
+                "wrong": [
+                    "HTTP",
+                    "FTP"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le nom de l'outil de contrôle de version le plus populaire ?",
+            "answers": {
+                "correct": "Git",
+                "wrong": [
+                    "SVN",
+                    "Mercurial"
+                ]
+            }
+        },
+        {
+            "question": "Quel langage est principalement utilisé pour les scripts de serveurs web ?",
+            "answers": {
+                "correct": "PHP",
+                "wrong": [
+                    "Java",
+                    "HTML"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle principal d'un proxy ?",
+            "answers": {
+                "correct": "Intermédiaire entre un utilisateur et un service",
+                "wrong": [
+                    "Optimiser la mémoire",
+                    "Accélérer la connexion Internet"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le principal format de fichier pour les vidéos sur le web ?",
+            "answers": {
+                "correct": "MP4",
+                "wrong": [
+                    "AVI",
+                    "MKV"
+                ]
+            }
+        },
+        {
+            "question": "Quel protocole est utilisé pour sécuriser les échanges sur un réseau local ?",
+            "answers": {
+                "correct": "WPA3",
+                "wrong": [
+                    "WPA2",
+                    "WEP"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle de la virtualisation dans un data center ?",
+            "answers": {
+                "correct": "Créer des environnements informatiques indépendants sur un même serveur",
+                "wrong": [
+                    "Accélérer le transfert de données",
+                    "Optimiser la consommation d'énergie"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le nom de l'outil de gestion de conteneurs le plus populaire ?",
+            "answers": {
+                "correct": "Docker",
+                "wrong": [
+                    "Vagrant",
+                    "Kubernetes"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle de l'API REST ?",
+            "answers": {
+                "correct": "Permettre l'interaction entre des systèmes via des requêtes HTTP",
+                "wrong": [
+                    "Effectuer des calculs",
+                    "Gérer la base de données"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le format de fichier utilisé pour les images animées ?",
+            "answers": {
+                "correct": "GIF",
+                "wrong": [
+                    "PNG",
+                    "JPEG"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle d'un pare-feu ?",
+            "answers": {
+                "correct": "Filtrer le trafic entrant et sortant d'un réseau",
+                "wrong": [
+                    "Accélérer la connexion réseau",
+                    "Gérer les utilisateurs"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle principal du cloud computing ?",
+            "answers": {
+                "correct": "Fournir des ressources informatiques à la demande",
+                "wrong": [
+                    "Réduire la consommation d'énergie",
+                    "Stocker des données localement"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le nom du système d'exploitation utilisé par les serveurs Web ?",
+            "answers": {
+                "correct": "Linux",
+                "wrong": [
+                    "Windows Server",
+                    "macOS"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle de l'algorithme de tri rapide (QuickSort) ?",
+            "answers": {
+                "correct": "Trier une liste de données de manière efficace",
+                "wrong": [
+                    "Compresser des fichiers",
+                    "Calculer des valeurs aléatoires"
+                ]
+            }
+        },
+        {
+            "question": "Quel langage est principalement utilisé pour la programmation scientifique ?",
+            "answers": {
+                "correct": "Python",
+                "wrong": [
+                    "C",
+                    "Ruby"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'outil utilisé pour analyser des paquets réseau ?",
+            "answers": {
+                "correct": "Wireshark",
+                "wrong": [
+                    "Nmap",
+                    "Ping"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle du protocole DNS ?",
+            "answers": {
+                "correct": "Traduire les noms de domaine en adresses IP",
+                "wrong": [
+                    "Crypter les communications",
+                    "Optimiser le réseau"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le langage de programmation utilisé principalement pour les systèmes embarqués ?",
+            "answers": {
+                "correct": "C",
+                "wrong": [
+                    "Python",
+                    "Java"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'objectif principal du machine learning ?",
+            "answers": {
+                "correct": "Permettre aux ordinateurs d'apprendre à partir de données",
+                "wrong": [
+                    "Automatiser les tâches manuelles",
+                    "Améliorer la vitesse des processeurs"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle de l'HTTPS ?",
+            "answers": {
+                "correct": "Sécuriser les échanges de données sur Internet",
+                "wrong": [
+                    "Optimiser les requêtes HTTP",
+                    "Accélérer la navigation web"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle du SSL/TLS dans la sécurisation des échanges ?",
+            "answers": {
+                "correct": "Chiffrer les données échangées entre un serveur et un client",
+                "wrong": [
+                    "Accélérer les échanges de données",
+                    "Vérifier l'identité des utilisateurs"
+                ]
+            }
+        },
+        {
+            "question": "Quel type de données est principalement stocké dans une base de données relationnelle ?",
+            "answers": {
+                "correct": "Données structurées",
+                "wrong": [
+                    "Données non structurées",
+                    "Données multimédia"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle de la mémoire vive (RAM) ?",
+            "answers": {
+                "correct": "Stocker temporairement les données en cours d'utilisation",
+                "wrong": [
+                    "Stocker de manière permanente les fichiers",
+                    "Gérer l'alimentation de l'ordinateur"
+                ]
+            }
+        },
+        {
+            "question": "Quel est l'objectif principal d'un serveur de messagerie ?",
+            "answers": {
+                "correct": "Envoyer et recevoir des emails",
+                "wrong": [
+                    "Stocker des fichiers",
+                    "Gérer les connexions Internet"
+                ]
+            }
+        },
+        {
+            "question": "Quel est le rôle de la compression de données ?",
+            "answers": {
+                "correct": "Réduire la taille des fichiers pour économiser de l'espace",
+                "wrong": [
+                    "Accélérer le transfert de données",
+                    "Sécuriser les fichiers"
+                ]
+            }
+        }
+    ]
+}
