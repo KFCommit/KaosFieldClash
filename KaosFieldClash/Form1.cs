@@ -18,10 +18,13 @@ namespace KaosFieldClash
         {
             InitializeComponent();
 
-            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "questions.json");
+            //string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "questions.json");
 
-            List<Question> question = Json.Load<Question>(path);
+            //List<Question> question = Json.Load<Question>(path);
 
+            De de = new De();
+
+            de.ViewDice(4, pbDe);
         }
     }
 }
