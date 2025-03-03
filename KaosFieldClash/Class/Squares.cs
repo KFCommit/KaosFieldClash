@@ -10,7 +10,7 @@ namespace KaosFieldClash.Class
     {
         public abstract void accept(SquareVisitor v);
         private int Index;
-        public Joueur[] Joueur { get; private set; }
+        public Joueur[] Joueur { get; protected set; }
 
         public Squares(int index)
         {
@@ -32,7 +32,7 @@ namespace KaosFieldClash.Class
             }
         }
 
-        public void removeJoueur()
+        public virtual void removeJoueur(Joueur joueur)
         {
             Joueur[0] = null;
         }

@@ -20,6 +20,10 @@ namespace KaosFieldClash
             v.visit(this);
         }
 
-
+        public override void removeJoueur(Joueur joueur)
+        {
+            int IndexOfJoueur = Array.IndexOf(Joueur, joueur);
+            this.Joueur[IndexOfJoueur + 1] = null;
+        }
     }
 }

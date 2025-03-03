@@ -57,7 +57,10 @@ namespace KaosFieldClash.Class
 
 		// Methods
 
-
+		public Squares GetSquare(int index) 
+		{
+			return PlateauList[index];
+		}
 	}
 
 }
