@@ -9,7 +9,15 @@ namespace KaosFieldClash
 {
     internal class QuestionSquare : Squares
     {
+        public QuestionSquare(int index) : base(index)
+        {
 
+        }
+
+        public override void accept(SquareVisitor v)
+        {
+            v.visit(this);
+        }
     }
 
 

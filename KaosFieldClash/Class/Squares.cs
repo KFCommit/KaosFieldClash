@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KaosFieldClash.Class
 {
-    internal abstract class Squares : SquareVisitor
+    internal abstract class Squares
     {
         public abstract void accept(SquareVisitor v);
         private int Index;

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KaosFieldClash.Class;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,10 @@ namespace KaosFieldClash
         public LadderSquare(int index, int indexOfDestination) : base(index)
         {
             IndexOfDestination = indexOfDestination;
+        }
+        public override void accept(SquareVisitor v)
+        {
+            v.visit(this);
         }
 
         public int getDestionationIndex()

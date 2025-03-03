@@ -16,6 +16,11 @@ namespace KaosFieldClash
             IndexOfDestination = indexOfDestination;
         }
 
+        public override void accept(SquareVisitor v)
+        {
+            v.visit(this);
+        }
+
         public int getDestionationIndex()
         {
             return IndexOfDestination;

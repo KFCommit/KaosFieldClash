@@ -12,10 +12,9 @@ namespace KaosFieldClash
         public BaseSquare(int index) : base(index)
         {
         }
-
         public override void accept(SquareVisitor v)
         {
-            throw new NotImplementedException();
+            v.visit(this);
         }
     }
 }

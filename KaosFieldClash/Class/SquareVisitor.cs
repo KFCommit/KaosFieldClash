@@ -11,6 +11,8 @@ namespace KaosFieldClash.Class
         void visit(BaseSquare s);
         void visit(LadderSquare s);
         void visit(QuestionSquare s);
-        void visit( s);
+        void visit(SlideSquare s);
+        void visit(StartSquare s);
+        void visit(SquareEnd s);
     }
 }

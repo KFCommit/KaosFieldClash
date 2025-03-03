@@ -15,6 +15,10 @@ namespace KaosFieldClash
         {
             joueurs = new Joueur[numberOfPlayer];
         }
+        public override void accept(SquareVisitor v)
+        {
+            v.visit(this);
+        }
 
 
     }
