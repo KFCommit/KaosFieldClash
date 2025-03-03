@@ -24,7 +24,7 @@ namespace KaosFieldClash
 
             De de = new De();
 
-            de.ViewDice(4, pbDe);
+            de.ViewDice(de.RollDice(), pbDe);
         }
     }
 }

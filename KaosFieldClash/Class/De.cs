@@ -33,10 +33,10 @@ namespace KaosFieldClash.Class
 			return nbDe;
 		}
 
-		public void ViewDice(int numDe, PictureBox pbDe)
+		public async void ViewDice(int numDe, PictureBox pbDe)
 		{
 			pbDe.Image = Image.FromFile("Img/deAnim.gif");
-			Thread.Sleep(2000);
+			await Task.Delay(2000);
 
 			pbDe.Image = Image.FromFile($"Img/de{numDe}.png");
 		}
