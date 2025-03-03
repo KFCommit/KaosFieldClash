@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KaosFieldClash
+namespace KaosFieldClash.Class
 {
-    internal class QuestionSquare
+    internal class answer
     {
-
+        public string correct;
+        public List<string> wrong;
     }
-
-
 }

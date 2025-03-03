@@ -15,7 +15,7 @@ namespace KaosFieldClash.Class
 		private int nbDe = 1;
 
 		// Constructor
-		De()
+		public De()
 		{
 
 		}
@@ -31,7 +31,7 @@ namespace KaosFieldClash.Class
 			return nbDe;
 		}
 
-		private void ViewDice(int numDe, PictureBox pbDe)
+		public void ViewDice(int numDe, PictureBox pbDe)
 		{
 			pbDe.Image = Image.FromFile("Img/deAnim.gif");
 		}
