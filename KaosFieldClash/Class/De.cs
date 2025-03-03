@@ -36,7 +36,7 @@ namespace KaosFieldClash.Class
 		public async void ViewDice(int numDe, PictureBox pbDe)
 		{
 			pbDe.Image = Image.FromFile("Img/deAnim.gif");
-			await Task.Delay(0);
+			await Task.Delay(2000);
 
 			pbDe.Image = Image.FromFile($"Img/de{numDe}.png");
 		}
