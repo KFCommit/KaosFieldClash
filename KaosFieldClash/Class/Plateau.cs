@@ -15,7 +15,7 @@ namespace KaosFieldClash.Class
 		// Variables
 
 
-		private List<Squares> PlateauList;
+		public List<Squares> PlateauList;
 		public int nbJoueur;
 
 		// Constructor

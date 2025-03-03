@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\AffichagePlateau.cs" />
     <Compile Include="Class\Partie.cs" />
     <Compile Include="Class\Plateau.cs" />
     <Compile Include="Class\De.cs" />
