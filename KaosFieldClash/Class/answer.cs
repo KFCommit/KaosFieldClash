@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KaosFieldClash.Class
 {
-    internal class answer
+    public class answer
     {
         public string correct;
         public List<string> wrong;

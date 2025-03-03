@@ -18,7 +18,7 @@ namespace KaosFieldClash
         {
             InitializeComponent();
 
-            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "questions.json");
+            string path = "Data/questions.json";
 
             List<Question> question = Json.Load<Question>(path);
 

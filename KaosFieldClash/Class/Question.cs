@@ -10,8 +10,7 @@ namespace KaosFieldClash.Class
     {
         public string question;
 
-        public string correct;
-        public string[] wrong;
+        public answer answers;
 
 
     }
