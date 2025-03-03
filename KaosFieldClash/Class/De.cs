@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
+using System.IO;
+using System.Threading;
 
 namespace KaosFieldClash.Class
 {
@@ -34,6 +36,9 @@ namespace KaosFieldClash.Class
 		public void ViewDice(int numDe, PictureBox pbDe)
 		{
 			pbDe.Image = Image.FromFile("Img/deAnim.gif");
+			Thread.Sleep(2000);
+
+			pbDe.Image = Image.FromFile($"Img/de{numDe}.png");
 		}
 	}
 
