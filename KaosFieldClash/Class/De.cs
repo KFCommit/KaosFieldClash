@@ -22,12 +22,13 @@ namespace KaosFieldClash.Class
 
 		// Methods
 
-		public void RollDice()
+		public int RollDice()
 		{
 			Random rnd = new Random();
 
 			nbDe = rnd.Next(rnd.Next(1, 6 + 1));
 			
+			return nbDe;
 		}
 
 		private void ViewDice(int numDe, PictureBox pbDe)
