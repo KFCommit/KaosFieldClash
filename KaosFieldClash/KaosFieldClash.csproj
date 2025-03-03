@@ -55,9 +55,10 @@
     <Compile Include="Class\question.cs" />
     <Compile Include="Class\QuestionSquare.cs" />
     <Compile Include="Class\SquareAction.cs" />
+    <Compile Include="Class\Squares.cs" />
     <Compile Include="Class\SquareVisitor.cs" />
     <Compile Include="Json.cs" />
-    <Compile Include="Class\Square.cs" />
+    <Compile Include="Class\BaseSquare.cs" />
     <Compile Include="Class\LadderSquare.cs" />
     <Compile Include="Class\SlideSquare.cs" />
     <Compile Include="Form1.cs">

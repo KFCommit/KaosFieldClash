@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KaosFieldClash
 {
-    internal class StartSquare : Square
+    internal class StartSquare : BaseSquare
     {
         Joueur[] joueurs;
 

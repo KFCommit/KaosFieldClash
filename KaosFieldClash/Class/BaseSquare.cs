@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace KaosFieldClash
 {
-    internal class Square : SquareVisitor
+    internal class BaseSquare : Squares
     {
         private int Index;
         public Joueur[] Joueur { get; private set; }
 
-        public Square(int index)
+        public BaseSquare(int index)
         {
             Index = index;
 
