@@ -28,7 +28,7 @@ namespace KaosFieldClash.Class
 		{
 			Random rnd = new Random();
 
-			nbDe = rnd.Next(rnd.Next(1, 6 + 1));
+			nbDe = rnd.Next(1, 6+1);
 			
 			return nbDe;
 		}
@@ -36,7 +36,7 @@ namespace KaosFieldClash.Class
 		public async void ViewDice(int numDe, PictureBox pbDe)
 		{
 			pbDe.Image = Image.FromFile("Img/deAnim.gif");
-			await Task.Delay(2000);
+			await Task.Delay(0);
 
 			pbDe.Image = Image.FromFile($"Img/de{numDe}.png");
 		}
