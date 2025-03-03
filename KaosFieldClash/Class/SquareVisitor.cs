@@ -8,6 +8,6 @@ namespace KaosFieldClash.Class
 {
     internal interface SquareVisitor
     {
-
+        
     }
 }

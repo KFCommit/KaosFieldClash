@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KaosFieldClash.Class;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace KaosFieldClash
 {
-    internal class Square
+    internal class Square : SquareVisitor
     {
         private int Index;
         public Joueur[] Joueur { get; private set; }
@@ -17,6 +18,7 @@ namespace KaosFieldClash
 
             Joueur = new Joueur[1];
         }
+
 
         public virtual void setJoueur(Joueur joueur)
         {
