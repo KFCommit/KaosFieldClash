@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-			this.pbPlateau = new System.Windows.Forms.PictureBox();
+			this.Square0 = new System.Windows.Forms.FlowLayoutPanel();
 			this.pbDe = new System.Windows.Forms.PictureBox();
-			((System.ComponentModel.ISupportInitialize)(this.pbPlateau)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pbDe)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// pbPlateau
+			// Square0
 			// 
-			this.pbPlateau.Image = global::KaosFieldClash.Properties.Resources.plateauKFC;
-			this.pbPlateau.Location = new System.Drawing.Point(-3, -1);
-			this.pbPlateau.Name = "pbPlateau";
-			this.pbPlateau.Size = new System.Drawing.Size(940, 519);
-			this.pbPlateau.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pbPlateau.TabIndex = 0;
-			this.pbPlateau.TabStop = false;
+			this.Square0.BackColor = System.Drawing.Color.Transparent;
+			this.Square0.BackgroundImage = global::KaosFieldClash.Properties.Resources.trans;
+			this.Square0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.Square0.ForeColor = System.Drawing.Color.Transparent;
+			this.Square0.Location = new System.Drawing.Point(93, 426);
+			this.Square0.Name = "Square0";
+			this.Square0.Size = new System.Drawing.Size(82, 80);
+			this.Square0.TabIndex = 2;
 			// 
 			// pbDe
 			// 
@@ -57,21 +57,21 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = global::KaosFieldClash.Properties.Resources.plateauKFC;
+			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(936, 518);
+			this.Controls.Add(this.Square0);
 			this.Controls.Add(this.pbDe);
-			this.Controls.Add(this.pbPlateau);
 			this.Name = "Form1";
 			this.Text = "KaosFieldClash";
-			((System.ComponentModel.ISupportInitialize)(this.pbPlateau)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pbDe)).EndInit();
 			this.ResumeLayout(false);
 
         }
 
 		#endregion
-
-		private System.Windows.Forms.PictureBox pbPlateau;
 		private System.Windows.Forms.PictureBox pbDe;
+		private System.Windows.Forms.FlowLayoutPanel Square0;
 	}
 }
 
