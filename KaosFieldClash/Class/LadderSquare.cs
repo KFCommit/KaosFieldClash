@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KaosFieldClash
 {
-    internal class LadderSquare : BaseSquare
+    internal class LadderSquare : Squares
     {
         private int IndexOfDestination;
 

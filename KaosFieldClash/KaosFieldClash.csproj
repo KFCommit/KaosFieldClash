@@ -54,7 +54,7 @@
     <Compile Include="Class\answer.cs" />
     <Compile Include="Class\question.cs" />
     <Compile Include="Class\QuestionSquare.cs" />
-    <Compile Include="Class\SquareAction.cs" />
+    <Compile Include="Class\SquareEnd.cs" />
     <Compile Include="Class\Squares.cs" />
     <Compile Include="Class\SquareVisitor.cs" />
     <Compile Include="Json.cs" />

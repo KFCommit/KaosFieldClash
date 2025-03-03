@@ -8,6 +8,9 @@ namespace KaosFieldClash.Class
 {
     internal interface SquareVisitor
     {
-        
+        void visit(BaseSquare s);
+        void visit(LadderSquare s);
+        void visit(QuestionSquare s);
+        void visit( s);
     }
 }

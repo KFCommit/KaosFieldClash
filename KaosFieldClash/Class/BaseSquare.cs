@@ -9,32 +9,13 @@ namespace KaosFieldClash
 {
     internal class BaseSquare : Squares
     {
-        private int Index;
-        public Joueur[] Joueur { get; private set; }
-
-        public BaseSquare(int index)
+        public BaseSquare(int index) : base(index)
         {
-            Index = index;
-
-            Joueur = new Joueur[1];
         }
 
-
-        public virtual void setJoueur(Joueur joueur)
+        public override void accept(SquareVisitor v)
         {
-            if (Joueur[0] == null)
-            {
-                Joueur[0] = joueur;
-            }
-            else
-            {
-                throw new ArgumentException($"Le joueur {joueur} ne peut pas ce deplacer sur la case {this}, car il y a déjà un joueur {Joueur}");
-            }
-        }
-
-        public void removeJoueur()
-        {
-            Joueur[0] = null;
+            throw new NotImplementedException();
         }
     }
 }

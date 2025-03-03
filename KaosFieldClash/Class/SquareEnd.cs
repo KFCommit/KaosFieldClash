@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KaosFieldClash.Class
 {
-    internal class SquareAction
+    internal class SquareEnd : Squares
     {
 
     }
