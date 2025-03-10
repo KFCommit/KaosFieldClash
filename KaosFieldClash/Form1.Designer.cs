@@ -1,4 +1,7 @@
-﻿namespace KaosFieldClash
+﻿using System.Collections.Generic;
+using System.Windows.Forms;
+
+namespace KaosFieldClash
 {
     partial class Form1
     {
@@ -79,6 +82,7 @@
 			this.pbDe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pbDe.TabIndex = 1;
 			this.pbDe.TabStop = false;
+			this.pbDe.Click += new System.EventHandler(this.pbDe_Click);
 			// 
 			// Square1
 			// 
@@ -421,6 +425,8 @@
         }
 
 		#endregion
+
+		
 		private System.Windows.Forms.PictureBox pbDe;
 		private System.Windows.Forms.FlowLayoutPanel Square0;
 		private System.Windows.Forms.FlowLayoutPanel Square1;

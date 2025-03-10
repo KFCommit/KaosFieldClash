@@ -12,36 +12,79 @@ using System.Windows.Forms;
 
 namespace KaosFieldClash
 {
-    public partial class Form1 : Form
-    {
-        Joueur[] joueurs = new Joueur[]{ new Joueur(), new Joueur() };
+	public partial class Form1 : Form
+	{
+		List<FlowLayoutPanel> flowLayoutPanels = new List<FlowLayoutPanel>();
 
-        Partie partie;
+		AffichagePlateau affichagePlateau;
 
-        public Form1()
-        {
-            partie = new Partie(joueurs, new Plateau(2, joueurs), new De());
+		Joueur[] joueurs = new Joueur[] { new Joueur("Fabio", Color.Red), new Joueur("Kalvin", Color.Blue) };
 
-            InitializeComponent();
+		Partie partie;
 
-            string path = "Data/questions.json";
+		public Form1()
+		{
+			affichagePlateau = new AffichagePlateau(this);
 
-            List<Question> question = Json.Load<Question>(path);
+			partie = new Partie(joueurs, new Plateau(2, joueurs), new De());
 
-            De de = new De();
+			InitializeComponent();
 
-            //de.ViewDice(de.RollDice(), pbDe);
+			addFlowLayoutPanel();
 
-            //partie.DeplacerJoueur(0, 2, partie.Joueurs[0]);
+			string path = "Data/questions.json";
 
-            //partie.DeplacerJoueur(0, 2, partie.Joueurs[1]);
+			List<Question> question = Json.Load<Question>(path);
 
-            partie.newRound();
+			De de = new De();
 
-            while (true)
-            {
-                partie.LancerDeeDeLaPartie();
-            }
-        }
-    }
+			de.ViewDice(de.RollDice(), pbDe);
+
+			partie.DeplacerJoueur(0, 2, partie.Joueurs[0]);
+
+			partie.DeplacerJoueur(0, 2, partie.Joueurs[1]);
+
+			partie.newRound();
+
+
+		}
+
+		public void addFlowLayoutPanel()
+		{
+			flowLayoutPanels.Add(Square0);
+			flowLayoutPanels.Add(Square1);
+			flowLayoutPanels.Add(Square2);
+			flowLayoutPanels.Add(Square3);
+			flowLayoutPanels.Add(Square4);
+			flowLayoutPanels.Add(Square5);
+			flowLayoutPanels.Add(Square6);
+			flowLayoutPanels.Add(Square7);
+			flowLayoutPanels.Add(Square8);
+			flowLayoutPanels.Add(Square9);
+			flowLayoutPanels.Add(Square10);
+			flowLayoutPanels.Add(Square11);
+			flowLayoutPanels.Add(Square12);
+			flowLayoutPanels.Add(Square13);
+			flowLayoutPanels.Add(Square14);
+			flowLayoutPanels.Add(Square15);
+			flowLayoutPanels.Add(Square16);
+			flowLayoutPanels.Add(Square17);
+			flowLayoutPanels.Add(Square18);
+			flowLayoutPanels.Add(Square19);
+			flowLayoutPanels.Add(Square20);
+			flowLayoutPanels.Add(Square21);
+			flowLayoutPanels.Add(Square22);
+			flowLayoutPanels.Add(Square23);
+			flowLayoutPanels.Add(Square24);
+			flowLayoutPanels.Add(Square25);
+			flowLayoutPanels.Add(Square26);
+			flowLayoutPanels.Add(Square27);
+		}
+
+		private void pbDe_Click(object sender, EventArgs e)
+		{
+			partie.LancerDeeDeLaPartie();
+			affichagePlateau.RefreshPlateau(partie.Plateau, flowLayoutPanels);
+		}
+	}
 }

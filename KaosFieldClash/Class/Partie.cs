@@ -40,7 +40,14 @@ namespace KaosFieldClash.Class
 
             int playerSquareIndex = Plateau.GetSquareIndex(playerSquare);
 
-            DeplacerJoueur(playerSquareIndex, playerSquareIndex + result, joueurPlaying);
+            if (joueurPlaying == playerSquare.Joueur[0])// Nécéssaire a cause de la case de depart !!
+			{
+				DeplacerJoueur(playerSquareIndex, playerSquareIndex + result, playerSquare.Joueur[0]);
+			}
+            else
+			{
+				DeplacerJoueur(playerSquareIndex, playerSquareIndex + result, playerSquare.Joueur[1]);
+			}
 
             newRound();
         }
