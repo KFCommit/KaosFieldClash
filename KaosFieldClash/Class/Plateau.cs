@@ -19,12 +19,12 @@ namespace KaosFieldClash.Class
 		public int nbJoueur;
 
 		// Constructor
-		public Plateau(int nbJoueur)
+		public Plateau(int nbJoueur, Joueur[] joueur)
 		{
 			this.nbJoueur = nbJoueur;
 			PlateauList = new List<Squares>
 			{
-				new StartSquare(this.nbJoueur),
+				new StartSquare(joueur),
 				new QuestionSquare(2),
 				new QuestionSquare(3),
 				new LadderSquare(4, 12),
@@ -61,6 +61,39 @@ namespace KaosFieldClash.Class
 		{
 			return PlateauList[index];
 		}
+
+		public int GetSquareIndex(Squares square)
+		{
+			return square.getIndex();
+        }
+
+		public Squares GetPlayerSquare(Joueur joueur)
+		{
+            foreach (Squares square in PlateauList)
+            {
+				//Verifie si le joueur est dans la case (Un seule joueur par case)
+				if (joueur == square.Joueur[0])
+				{
+					return square; //retourne la case
+				}
+				//Logic pour la case de départ (qui peut posseder plusieur joueur)
+				else if(square.GetType() == typeof(StartSquare))
+                {
+                    //parcours le tableau de joueur
+                    foreach (Joueur joueurInStartSquare in square.Joueur) 
+                    {
+                        //verifie si le joueur corresponds ou pas
+                        if (joueur == joueurInStartSquare) 
+                        {
+                            return square;
+                        }
+                    }
+                }
+            }
+
+			//Le joueur n'a pas été trouver
+			throw new Exception("Le joueur n'est pas dans le plateau");
+        }
 	}
 
 }

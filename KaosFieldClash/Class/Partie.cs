@@ -12,6 +12,8 @@ namespace KaosFieldClash.Class
         public Plateau Plateau;
         public De De;
 
+        private int idJoueurJouant = -1;
+
         public Partie(Joueur[] joueurs, Plateau plateau, De de)
         {
             Joueurs = joueurs;
@@ -19,9 +21,28 @@ namespace KaosFieldClash.Class
             De = de;
         }
 
-        public void update()
+        public void newRound()
         {
+            idJoueurJouant++;
+            if (idJoueurJouant >= Joueurs.Count())
+            {
+                idJoueurJouant = 0;
+            }
+        }
 
+        public void LancerDeeDeLaPartie()
+        {
+            int result = De.RollDice();
+
+            Joueur joueurPlaying = Joueurs[idJoueurJouant];
+
+            Squares playerSquare = Plateau.GetPlayerSquare(joueurPlaying);
+
+            int playerSquareIndex = Plateau.GetSquareIndex(playerSquare);
+
+            DeplacerJoueur(playerSquareIndex, playerSquareIndex + result, joueurPlaying);
+
+            newRound();
         }
 
         public void DeplacerJoueur(int indexCurrentPos, int indexNewPos, Joueur joueur)
@@ -54,5 +75,6 @@ namespace KaosFieldClash.Class
             Plateau.GetSquare(indexNewPos).accept(squareAction);
 
         }
+
     }
 }

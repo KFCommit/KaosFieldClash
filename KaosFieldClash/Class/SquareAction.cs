@@ -11,32 +11,32 @@ namespace KaosFieldClash.Class
     {
         void SquareVisitor.visit(BaseSquare s)
         {
-            throw new NotImplementedException();
+
         }
 
         void SquareVisitor.visit(LadderSquare s)
         {
-            throw new NotImplementedException();
+
         }
 
         void SquareVisitor.visit(QuestionSquare s)
         {
-            throw new NotImplementedException();
+
         }
 
         void SquareVisitor.visit(SlideSquare s)
         {
-            throw new NotImplementedException();
+
         }
 
         void SquareVisitor.visit(StartSquare s)
         {
-            throw new NotImplementedException();
+
         }
 
         void SquareVisitor.visit(SquareEnd s)
         {
-            throw new NotImplementedException();
+
         }
     }
 }

@@ -9,11 +9,10 @@ namespace KaosFieldClash
 {
     internal class StartSquare : Squares
     {
-        Joueur[] joueurs;
 
-        public StartSquare(int numberOfPlayer) : base(0)
+        public StartSquare(Joueur[] joueurs) : base(0)
         {
-            joueurs = new Joueur[numberOfPlayer];
+            Joueur = joueurs;
         }
         public override void accept(SquareVisitor v)
         {
@@ -23,7 +22,7 @@ namespace KaosFieldClash
         public override void removeJoueur(Joueur joueur)
         {
             int IndexOfJoueur = Array.IndexOf(Joueur, joueur);
-            this.Joueur[IndexOfJoueur + 1] = null;
+            this.Joueur[IndexOfJoueur] = null;
         }
     }
 }

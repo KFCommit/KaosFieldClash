@@ -19,6 +19,10 @@ namespace KaosFieldClash.Class
             Joueur = new Joueur[1];
         }
 
+        public int getIndex()
+        {
+            return Index;
+        }
 
         public virtual void setJoueur(Joueur joueur)
         {
